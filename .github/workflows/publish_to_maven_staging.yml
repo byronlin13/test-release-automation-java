@@ -19,7 +19,7 @@ jobs:
         distribution: 'adopt'
         server-username: MAVEN_USERNAME
         server-password: MAVEN_PASSWORD
-        gpg-private-key: MAVEN_PRIVATE_KEY
+        gpg-private-key: MAVEN_GPG_PRIVATE_KEY
         gpg-passphrase: MAVEN_GPG_PASSPHRASE
 
     - name: Build with Maven
