@@ -1,6 +1,7 @@
 on:
  release:
-   types: [unpublished]
+   types:
+     - unpublished
 
 # on:
 #   workflow_dispatch
