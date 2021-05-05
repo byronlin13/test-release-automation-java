@@ -18,6 +18,11 @@
         <configuration>
           <source>1.8</source>
           <target>1.8</target>
+          <!-- Prevent gpg from using pinentry programs -->
+          <gpgArguments>
+            <arg>--pinentry-mode</arg>
+            <arg>loopback</arg>
+          </gpgArguments>
         </configuration>
       </plugin>
     </plugins>
