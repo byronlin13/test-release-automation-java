@@ -10,7 +10,7 @@
   <modules>
     <module>release</module>
   </modules>
-  <packaging>pom</packaging>
+  <packaging>jar</packaging>
 
   <build>
     <plugins>
